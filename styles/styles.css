@@ -1,19 +1,61 @@
 body {
-    background-color: #523067;
+    /* background-color: #523067; */
+    background-color: #28104E;
 }
 
 h1 {
     color: white;
+}
+.customHeaderTextColor {
+    color: #DEACF5;
 }
 
 p {
     color: white;
     font-size: x-large;
 }
+.customCardBackground {
+    background-color: #DEACF5;
+}
+
+/* To customize the background of the button in the cards */
+.customButtonBackground{
+    background-color: #9754CB;
+}
 
 .ColorDG {
     color: 3D3C3C;
 }
-.nav{
-    background-color: #4d2178;
+.navbar{
+    /* background-color: #786a88; */
+    background-color: #6237A0;
+}
+/* For styling the accordion header when collapsed */
+.customBackground{
+    background-color: #9754CB !important; /* !important overwrites Bootstraps CSS */
+}
+
+/* For styling the accordion header when opened */
+.customBackground2 {
+    background-color: #9754CB;
+}
+
+/* To stylize the text box inside of the accordion when opened */
+#collapseOne {
+    background-color: #DEACF5;
+}
+#collapseTwo {
+    background-color: #DEACF5;
+}
+#collapseThree {
+    background-color: #DEACF5;
+}
+#collapseFour {
+    background-color: #DEACF5;
+}
+#collapseFive {
+    background-color: #DEACF5;
+}
+#collapseSix {
+    background-color: #DEACF5;
 }

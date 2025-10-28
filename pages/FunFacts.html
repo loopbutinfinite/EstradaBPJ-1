@@ -12,23 +12,34 @@
 
 <body>
     <!-- Start of Navbar -->
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html"><u>Home</u></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./Interests.html"><u>Interests</u></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./Accomplishments.html"><u>Accomplishments</u></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" aria-disabled="true" href="./FunFacts.html"><u>Fun/Weird Facts</u></a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Introduction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Interests.html">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Accomplishments.html">Accomplishments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./FunFacts.html"><u>Fun/Weird Facts</u></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- End of Navbar -->
-
-     <!-- Start of image and header centering -->
+    <br>
+    <!-- Start of image and header centering -->
     <div class="container">
         <div class="row">
             <!-- Start of image centered -->
@@ -38,7 +49,7 @@
             <!-- End of image centered -->
             <!-- Start of Header text centered -->
             <div class="col-12 d-flex justify-content-center">
-                <h1><u>Fun/Weird Facts</u></h1>
+                <h1 class="customHeaderTextColor"><u>Fun/Weird Facts</u></h1>
             </div>
             <!-- End of Header text centered -->
         </div>
@@ -49,7 +60,7 @@
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                <button class="accordion-button customBackground" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
                     Inspired Sherlock Holmes
                 </button>
@@ -62,7 +73,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed customBackground" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Edgar Allen Poe Only Received $9
                 </button>
@@ -75,7 +86,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed customBackground" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Textbook Author
                 </button>
@@ -88,7 +99,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed customBackground" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     University Dropout and Gambling Addict
                 </button>
@@ -101,7 +112,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed customBackground" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     World Record Holder
                 </button>
@@ -114,7 +125,7 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed customBackground" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     Inspiration For a Name of an NFL Team Name
                 </button>
